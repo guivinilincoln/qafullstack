@@ -22,6 +22,10 @@ describe 'Mouse Hover', :hovers do
         expect(page).to have_content 'Nome: Homem Aranha' #verifica se existe esse texto na tela
      end
 
+     #expreções regulares para css selector / jquery: ('img[alt^=Pantera]') = Começa, 'img[alt$=Negra]') = Termina, 'img[alt*=Negra]') = Contem
+     #
+     
+
     after(:each){
         sleep 0.5
     }

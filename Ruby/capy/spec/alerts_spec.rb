@@ -32,7 +32,7 @@ describe 'Alertas de js', :alerts do
 
     it 'accept prompt', :accept_prompt do
         
-        accept_prompt(with: 'Guilherme') do#metodo do capybara
+        accept_prompt(with: 'Guilherme') do#metodo do capybara aceita
             click_button 'Prompt'
         end
 
@@ -41,7 +41,7 @@ describe 'Alertas de js', :alerts do
 
     it 'dismiss prompt', :dismiss_prompt do
         
-        dismiss_prompt(with: 'Guilherme') do#metodo do capybara
+        dismiss_prompt(with: 'Guilherme') do #metodo do capybara recusa
             click_button 'Prompt'
         end
 

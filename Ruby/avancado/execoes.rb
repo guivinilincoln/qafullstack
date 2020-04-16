@@ -17,7 +17,8 @@ end
 def soma (n1 , n2)
     n1 + n2
 rescue  Exception => e
-    puts e.message
+   # puts e.message
+   puts 'numero invalido'
 end
 
 puts '============Tratamento de exeções no metodo=========='

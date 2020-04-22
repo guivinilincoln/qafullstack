@@ -9,20 +9,22 @@ Dentro desse arquivo devemos adiconar o seguinte comando ```"gem 'rspec'"```, es
 
 Após salver, voltar até o terminal e executar o comando ```"gem install"```, esse comando serve para fazer o download dos arquivos da dependencia Rspec.
 
-#### Observação 1:
+##### Observação 1:
 Se quiser verificar qual é a versão do Rspec, utilizar ```  "rspec --version" ``` 
 
 
 Agora execute o comando ```  "rspec --init" ``` , esse comando ira cirar nossa extrutura basica do projeto de automação. 
 
-#### Observação 2:
-O arquivo "spec_helper.rb" é onde temos nossa configuração do tests
-O arquivo ".rspec" é onde o arquivo spec, sera importado.
-A pasta spec é onde vamos escrever nossas automações.
-	Extra:
-		Por convenção os arquivos da automação deveram ter o seguinte formato, "exemplo_spec.rb", seguindo:													 |nome|_dependencia do Rspec|Ruby
-																																	 
-#### Exemplo de test:
+
+##### Observação 2:
+O arquivo ``` "spec_helper.rb" ``` é onde temos nossa configuração do tests
+O arquivo ``` ".rspec" ``` é onde o arquivo spec, sera importado.
+A pasta ```spec ``` é onde vamos escrever nossas automações.
+  ##### Extra:
+   Por convenção os arquivos da automação deveram ter o seguinte formato, "exemplo_spec.rb", seguindo:	
+		
+		
+#### Exemplo de suite de test:
 ``` 
  describe 'exemplo de suite' do
 	it 'exemplo de cenario' do

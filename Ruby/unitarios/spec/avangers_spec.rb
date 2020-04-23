@@ -38,7 +38,7 @@ describe AvengersHeadQuarter do # Describe é um agrupador de cenários (it).
         hq.put('Hulk')
         hq.put('Spiderman')
 
-        expect(hq.list).to start_with('Thor') 
+        expect(hq.list).to start_with('Thor')
     end
 
     it 'Ironman deve ser o último da lista' do

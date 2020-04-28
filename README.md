@@ -36,13 +36,14 @@ A pasta ```spec ``` é onde vamos escrever nossas automações.
 
 Para rodar um suite de test, utilize o comando ``` "rspec" ```  no Cmder
 
-####  Extra:
-	Rodandos os testes por arquivo especifico
-```
-rspec spec\saque_spec.rb 
-```
-    Rodandos os testes por arquivo especifico com formatação de documento,
+#### Extra:
+	Rodandos os testes por arquivo especifico ``` rspec spec\saque_spec.rb ```
+    Rodandos os testes por arquivo especifico com formatação de documento``` rspec spec\saque_spec.rb -fd ```
+	Rodandos os testes e grando um relatorio HTMl ``` rspec --format html --out report.html ```
 	
-```
-rspec spec\saque_spec.rb -fd
-```
+	Para extrairmos relatorios em servidores(Exemplo: Jenkins e Azure) devemos implementar um nova biblioteceta  ``` gem 'rspec_junit_formatter' ``` logo após utilizar 
+	``` bundler install ``` e depois executar  ``` rspec --format RspecJunitFormatter --out report.xml ``` no terminal
+	
+	
+	
+	

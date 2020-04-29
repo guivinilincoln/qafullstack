@@ -1,5 +1,4 @@
-### Descrição:
-Nesse repositorio temos alguns exemplos de programação básica com Ruby, orientação a objetos, herança e exeções(avançado) e tests unitarios com Rpesc.
+### Ruby básico, orientação a objetos e tests unitarios com Rpesc:
 
 Para dar inicio ao projeto com Rspec devemos utilziar o comando ```"bandle init"``` no Cmder para que seja gerado um arquivo Gemfile dentro da nossa pasta 
 
@@ -38,9 +37,12 @@ Para rodar um suite de test, utilize o comando ``` "rspec" ```  no Cmder
 
 #### Extra:
 Rodandos os testes por arquivo especifico ``` rspec spec\saque_spec.rb ```
+
 Rodandos os testes por arquivo especifico com formatação de documento``` rspec spec\saque_spec.rb -fd ```
+
 Rodandos os testes e grando um relatorio HTMl ``` rspec --format html --out report.html ```
-Para extrairmos relatorios em servidores(Exemplo: Jenkins e Azure) devemos implementar um nova biblioteceta  ``` gem 'rspec_junit_formatter' ``` logo após utilizar ``` bundler install ``` e depois executar  ``` rspec --format RspecJunitFormatter --out report.xml ``` no terminal.
+
+Para extrairmos relatorios em servidores (Exemplo: Jenkins e Azure) devemos implementar um nova biblioteceta  ``` gem 'rspec_junit_formatter' ``` logo após utilizar ``` bundler install ``` e depois executar  ``` rspec --format RspecJunitFormatter --out report.xml ``` no terminal.
 	
 	
 	

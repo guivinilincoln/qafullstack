@@ -9,11 +9,14 @@ total = 0
 #puts 'Informe o número 2:'
 #numero2 = gets.chomp.to_i
 
-#total = numero1 + numero2
-#total = numero1 - numero2
-#total = numero1 * numero2
-total = numero1 / numero2
-puts total
+total1 = numero1 + numero2
+total2 = numero1 - numero2
+total3 = numero1 * numero2
+total4 = numero1 / numero2
+puts 'Resultado da soma ' + total1.to_s
+puts 'Resultado da subtração ' + total2.to_s
+puts 'Resultado da multiplicação ' + total3.to_s
+puts 'Resultado da divisão ' + total4.to_s
 
 #Operadores de Compareção
 

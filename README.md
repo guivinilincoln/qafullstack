@@ -17,12 +17,14 @@
 ## Primeiros Passos:
 <ul>
 <li>Após baixar e instalar o VSCode, Cmder e o Ruby Installer(LTS)</li>
-<li>Abrir o Cmder e utilizar o comando ```` ruby --version``` para verificar a versão do Ruby instalada.</li>
-<li>Verificada a versão utilizar ```` ridk install``` para fazer a instalação do quit de dev do Ruby, ao executar esse comando deve aparecer três opções. Digitar 3 e enter. Esperar finalizar e enter novamente. </li>
-<li>Agora vamos utilizar o comando ```` gem install bundler``` sera instalado o gereciador de dependencia do Ruby.</li>
-<li>Verficar a versão do bundler instalada, usar ```` bundler --version``` </li>
-li>Verficar configuração de ambiente do ruby ```` gem env``` </li>
+<li>Abrir o Cmder e utilizar o comando "ruby --version" para verificar a versão do Ruby instalada.</li>
+<li>Verificada a versão utilizar "ridk install" para fazer a instalação do quit de dev do Ruby, ao executar esse comando deve aparecer três opções. Digitar 3 e enter. Esperar finalizar e enter novamente. </li>
+<li>Agora vamos utilizar o comando "gem install bundler" sera instalado o gereciador de dependencia do Ruby.</li>
+<li>Verficar a versão do bundler instalada, usar "bundler --version" </li>
+li>Verficar configuração de ambiente do ruby "gem env" </li>
 </ul>
+
+## Projeto:
 
 Para dar inicio ao projeto com Rspec devemos utilziar o comando ```"bandle init"``` no Cmder para que seja gerado um arquivo Gemfile dentro da nossa pasta 
 

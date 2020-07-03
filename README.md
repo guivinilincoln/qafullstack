@@ -38,7 +38,7 @@ Após salver, voltar até o terminal e executar o comando ```"gem install"```, e
 Se quiser verificar qual é a versão do Rspec, utilizar ```  "rspec --version" ``` 
 
 
-Agora execute o comando ```  "rspec --init" ``` , esse comando ira cirar nossa extrutura basica do projeto de automação. 
+Agora execute o comando ```  "rspec --init" ``` , esse comando ira cirar nossa estrutura basica do projeto de automação. 
 
 
 ##### Observação 2:

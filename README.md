@@ -32,7 +32,7 @@ Esse arquivo e como o arquivo pom.xlm do maven no java, onde podemos adicionar n
 
 Dentro desse arquivo devemos adiconar o seguinte comando ```"gem 'rspec'"```, esse comando serve para indicar que vamos precisar do Rspec em nosso projeto.
 
-Após salver, voltar até o terminal e executar o comando ```"gem install"```, esse comando serve para fazer o download dos arquivos da dependencia Rspec.
+Após salver, voltar até o terminal e executar o comando ```"bundle install"```, esse comando serve para fazer o download dos arquivos da dependencia Rspec.
 
 ##### Observação 1:
 Se quiser verificar qual é a versão do Rspec, utilizar ```  "rspec --version" ``` 

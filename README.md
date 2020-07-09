@@ -1,4 +1,4 @@
-### Ruby básico, orientação a objetos e tests unitarios com Rpesc:
+### Ruby básico, orientação a objetos e tests unitários com Rpesc:
 
 
 ## Pré-requisitos:
@@ -8,7 +8,7 @@
 <li>Cmder</li>
 </ul>
 
-## Configuração de variaveis de ambiente
+## Configuração de variáveis de ambiente
 <ul>
 <li>cmder_root C:\qa\tools\cmder</li>
 </ul>
@@ -24,30 +24,31 @@
 li>Verficar configuração de ambiente do ruby ```` gem env``` </li>
 </ul>
 
-Para dar inicio ao projeto com Rspec devemos utilziar o comando ```"bandle init"``` no Cmder para que seja gerado um arquivo Gemfile dentro da nossa pasta 
+Para dar inicio ao projeto com Rspec devemos utilizar o comando ```"bandle init"``` no Cmder para que seja gerado um arquivo Gemfile dentro da nossa pasta 
 
-Esse arquivo e como o arquivo pom.xlm do maven no java, onde podemos adicionar nossas dependencias.
+Esse arquivo e como o arquivo pom.xlm do maven no java, onde podemos adicionar nossas dependências.
 
-Dentro desse arquivo devemos adiconar o seguinte comando ```"gem 'rspec'"```, esse comando serve para indicar que vamos precisar do Rspec em nosso projeto.
+Dentro desse arquivo devemos adicionar o seguinte comando ```"gem 'rspec'"```, esse comando serve para indicar que vamos precisar do Rspec em nosso projeto.
 
-Após salver, voltar até o terminal e executar o comando ```"gem install"```, esse comando serve para fazer o download dos arquivos da dependencia Rspec.
+Após salvar, voltar até o terminal e executar o comando ```"gem install"```, esse comando serve para fazer o download dos arquivos da dependência Rspec.
 
 ##### Observação 1:
 Se quiser verificar qual é a versão do Rspec, utilizar ```  "rspec --version" ``` 
 
 
-Agora execute o comando ```  "rspec --init" ``` , esse comando ira cirar nossa extrutura basica do projeto de automação. 
+Agora execute o comando ```  "rspec --init" ``` , esse comando ira criar nossa estrutura básica do projeto de automação. 
 
 
 ##### Observação 2:
-O arquivo ``` "spec_helper.rb" ``` é onde temos nossa configuração do tests
-O arquivo ``` ".rspec" ``` é onde o arquivo spec, sera importado.
+O arquivo ``` "spec_helper.rb" ``` é onde temos nossa configuração do testes
+O arquivo ``` ".rspec" ``` é onde o arquivo spec, será importado.
 A pasta ```spec ``` é onde vamos escrever nossas automações.
+
   ##### Extra:
    Por convenção os arquivos da automação deveram ter o seguinte formato, "exemplo_spec.rb", seguindo:	
 		
 		
-#### Exemplo de suite de test:
+#### Exemplo de suíte de test:
 ``` 
  describe 'exemplo de suite' do
 	it 'exemplo de cenario' do
@@ -57,16 +58,16 @@ A pasta ```spec ``` é onde vamos escrever nossas automações.
 	 end
 ```
 
-Para rodar um suite de test, utilize o comando ``` "rspec" ```  no Cmder
+Para rodar um suíte de test, utilize o comando ``` "rspec" ```  no Cmder
 
 #### Extra:
-Rodandos os testes por arquivo especifico ``` rspec spec\saque_spec.rb ```
+Rodando os testes por arquivo especifico ``` rspec spec\saque_spec.rb ```
 
-Rodandos os testes por arquivo especifico com formatação de documento``` rspec spec\saque_spec.rb -fd ```
+Rodando os testes por arquivo especifico com formatação de documento``` rspec spec\saque_spec.rb -fd ```
 
-Rodandos os testes e grando um relatorio HTMl ``` rspec --format html --out report.html ```
+Rodando os testes e gerando um relatório HTMl ``` rspec --format html --out report.html ```
 
-Para extrairmos relatorios em servidores (Exemplo: Jenkins e Azure) devemos implementar um nova biblioteceta  ``` gem 'rspec_junit_formatter' ``` logo após utilizar ``` bundler install ``` e depois executar  ``` rspec --format RspecJunitFormatter --out report.xml ``` no terminal.
+Para extrairmos relatórios em servidores (Exemplo: Jenkins e Azure) devemos implementar um nova biblioteca a  ``` gem 'rspec_junit_formatter' ``` logo após utilizar ``` bundler install ``` e depois executar  ``` rspec --format RspecJunitFormatter --out report.xml ``` no terminal.
 	
 	
 	
